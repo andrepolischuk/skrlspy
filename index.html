@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Skrlspy</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/page.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <ul class="nav nav-pills nav-stacked">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#0">Start</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#1">Section 1</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#2">Section 2</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#3">Section 3</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#4">Section 4</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#5">Section 5</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#6">Section 6</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#7">Section 7</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#8">Github</a></li>
+  </ul>
+
+  <div class="container section">
+    <a name="0"></a>
+    <div class="content text-center">
+      <h1>Skrlspy</h1>
+      <h3><span class="glyphicon glyphicon-chevron-down"></span></h3>
+      <br>
+      <p class="text-muted">&copy; 2014 Andrey Polischuk</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="1"></a>
+    <div class="content">
+      <h2>Section 1</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="2"></a>
+    <div class="content">
+      <h2>Section 2</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="3"></a>
+    <div class="content">
+      <h2>Section 3</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="4"></a>
+    <div class="content">
+      <h2>Section 4</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="5"></a>
+    <div class="content">
+      <h2>Section 5</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="6"></a>
+    <div class="content">
+      <h2>Section 6</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="7"></a>
+    <div class="content">
+      <h2>Section 7</h2>
+    </div>
+  </div>
+
+  <div class="container section">
+    <a name="8"></a>
+    <div class="content">
+      <h2>
+        <a href="https://github.com/andrepolischuk/skrlspy">Github</a>
+      </h2>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.0.0/skrlspy.js"></script>
+
+  <script type="text/javascript">
+
+    skrlspy({
+      section : '.section',
+      nav : '.nav',
+      change : function(cur) {
+        console.log(cur);
+      }
+    });
+
+  </script>
+
+</body>
+</html>
