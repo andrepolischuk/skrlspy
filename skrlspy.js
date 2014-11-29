@@ -18,9 +18,11 @@
   var nav;
 
   /**
-   * Navigation active class
+   * Object classes
    */
 
+  var sectionClass   = document.body.getAttribute('data-skrlspy');
+  var navClass       = document.body.getAttribute('data-skrlspy-nav');
   var navActiveClass = 'active';
   var navActiveClassExp;
 
@@ -111,6 +113,19 @@
     }
 
     scroll();
+
+  }
+
+  /**
+   * Initialization via <body>
+   */
+
+  if (sectionClass && navClass) {
+
+    skrlspy({
+      section : sectionClass,
+      nav : navClass
+    });
 
   }
 
