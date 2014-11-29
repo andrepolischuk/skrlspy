@@ -92,6 +92,10 @@
 
     options = options || {};
 
+    if (sections || nav) {
+      return;
+    }
+
     if (!options.section || !options.nav) {
       return;
     }
