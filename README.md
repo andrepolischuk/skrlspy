@@ -7,7 +7,13 @@
   Via script tag in page sources:
 
 ```html
-<script src="//cdn.rawgit.com/andrepolischuk/skrlspy/1.0.0/skrlspy.min.js"></script>
+<script src="//cdn.rawgit.com/andrepolischuk/skrlspy/1.1.0/skrlspy.min.js"></script>
+```
+
+  Set sections and nav classes via `data-skrlspy` and `data-skrlspy-nav` attributes:
+
+```html
+<body data-skrlspy=".section" data-skrlspy-nav=".nav">
 ```
 
 ## API
