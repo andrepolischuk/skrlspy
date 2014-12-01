@@ -15,7 +15,7 @@
   <![endif]-->
 
 </head>
-<body>
+<body data-skrlspy=".section" data-skrlspy-nav=".nav">
 
   <ul class="nav nav-pills nav-stacked">
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#0">Start</a></li>
@@ -99,19 +99,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.0.0/skrlspy.js"></script>
-
-  <script type="text/javascript">
-
-    skrlspy({
-      section : '.section',
-      nav : '.nav',
-      change : function(cur) {
-        console.log(cur);
-      }
-    });
-
-  </script>
+  <script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.1.0/skrlspy.js"></script>
 
 </body>
 </html>
