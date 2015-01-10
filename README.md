@@ -4,11 +4,24 @@
 
 ## Instalation
 
-  Via script tag in page sources:
+  Browser:
 
 ```html
-<script src="//cdn.rawgit.com/andrepolischuk/skrlspy/1.1.0/skrlspy.min.js"></script>
+<script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.1.0/skrlspy.min.js"></script>
 ```
+  Component(1):
+
+```sh
+$ component install andrepolischuk/skrlspy
+```
+
+  Npm:
+
+```sh
+$ npm install skrlspy
+```
+
+## Use
 
   Set sections and nav classes via `data-skrlspy` and `data-skrlspy-nav` attributes:
 
