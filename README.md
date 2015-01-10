@@ -7,8 +7,9 @@
   Browser:
 
 ```html
-<script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.1.0/skrlspy.min.js"></script>
+<script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.2.0/skrlspy.min.js"></script>
 ```
+
   Component(1):
 
 ```sh
