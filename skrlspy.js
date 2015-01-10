@@ -1,5 +1,5 @@
-// Skrlspy © 2014 Andrey Polischuk
-// https://github.com/andrepolischuk/skrlspy
+// Skrlspy © 2014-2015 Andrey Polischuk
+// github.com/andrepolischuk/skrlspy
 
 !function() {
 
