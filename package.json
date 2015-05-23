@@ -6,11 +6,8 @@
     "scroll",
     "spy"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/andrepolischuk/skrlspy.git"
-  },
-  "main": "skrlspy.js",
+  "repository": "andrepolischuk/skrlspy",
+  "main": "index.js",
   "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
   "license": "MIT"
 }

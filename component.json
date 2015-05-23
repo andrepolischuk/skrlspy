@@ -7,9 +7,9 @@
     "spy"
   ],
   "repository": "andrepolischuk/skrlspy",
-  "main" : "skrlspy.js",
-  "scripts" : [
-    "skrlspy.js"
+  "main": "index.js",
+  "scripts": [
+    "index.js"
   ],
   "license": "MIT"
 }

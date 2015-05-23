@@ -1,28 +1,18 @@
-# Skrlspy
+# skrlspy
 
-  Scroll spy
+  > Scroll spy
 
 ## Instalation
 
-  Browser:
-
-```html
-<script src="https://cdn.rawgit.com/andrepolischuk/skrlspy/1.2.0/skrlspy.min.js"></script>
+```sh
+$ npm install --save skrlspy
 ```
-
-  Component(1):
 
 ```sh
 $ component install andrepolischuk/skrlspy
 ```
 
-  Npm:
-
-```sh
-$ npm install skrlspy
-```
-
-## Use
+## Usage
 
   Set sections and nav classes via `data-skrlspy` and `data-skrlspy-nav` attributes:
 
@@ -59,3 +49,7 @@ skrlspy({
   * Safari
   * Firefox
   * Opera
+
+## License
+
+  MIT
