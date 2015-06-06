@@ -2,14 +2,14 @@
 
   > Scroll spy
 
-## Instalation
+## Install
 
 ```sh
-$ npm install --save skrlspy
+npm install --save skrlspy
 ```
 
 ```sh
-$ component install andrepolischuk/skrlspy
+component install andrepolischuk/skrlspy
 ```
 
 ## Usage
